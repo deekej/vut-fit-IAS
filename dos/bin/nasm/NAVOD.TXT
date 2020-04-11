@@ -1,0 +1,18 @@
+
+Zdrojový program v souboru "xyz.asm" se pøekládá pøíkazem "RUN-OBJ.BAT xyz", 
+(xyz je jméno souboru, pøípona musí být asm)  
+
+Vytvoøí se soubory:
+   xyz.lst  (protokol o pøekladu)
+   xyz.obj  (výstupní relokativní program) 
+ 
+
+Zdrojový program v souboru xxx.asm se pøekládá a výstupní program xyz.exe se 
+spou¹tí pøíkazem "RUN.BAT xxx", (xyz je jméno souboru, pøípona musí být asm)  
+
+Vytvoøí se soubory:
+   xyz.lst  (protokolu o pøekladu)
+   xyz.obj  (relokativní program) 
+   xyz.map  (protokol o uložení segmentù v pamìti po sestavení)
+   xyz.exe  (výstupní spustitelný program)
+

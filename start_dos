@@ -1,0 +1,4 @@
+#!/bin/bash
+ROOT_DIR=`pwd`
+dosbox -c "mount c $ROOT_DIR/dos" -c "mount d $ROOT_DIR/data" -c "C:\START.BAT"
+ 
